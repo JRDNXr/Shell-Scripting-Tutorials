@@ -1,6 +1,14 @@
 #!/bin/zsh
 
-# We create variables like so:
-my_var="Hello, World!"
+# Variables that can hold strings:
+myStr="Hello, World!"
 
-echo my_var
+echo $myStr '\n'        ## Output  |  Hello, World!
+
+
+# Variables can also hold integers:
+myInt=1
+
+echo $myInt             ## Output  |  1
+
+

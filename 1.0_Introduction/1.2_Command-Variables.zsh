@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-# We create variables like so:
-my_var="Hello, World!"
+# Command variables are variables that can run Shell commands when called:
+myVar=$(echo "This comman works!")
 
-echo my_var
+# We can call variables by appending a dollar sign ( $ ) before the variable name:
+$myVar
