@@ -6,9 +6,10 @@ myStr="Hello, World!"
 echo $myStr '\n'        ## Output  |  Hello, World!
 
 
-# Variables can also hold integers:
+# Variables can also hold numbers:
 myInt=1
+myDecimal=2.64
 
 echo $myInt             ## Output  |  1
 
-
+echo $myDecimal         ## Output  |  2.64
